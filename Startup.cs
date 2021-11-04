@@ -40,7 +40,7 @@ namespace FirstProject
 
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FirstProject v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Emre Kalem v1"));
 
 
             app.UseHttpsRedirection();
